@@ -1,0 +1,1105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Spire.PdfViewer.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:Spire.PdfViewer.DocumentOpenedEventHandler">
+            <summary>
+            Provides document opened events
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:Spire.PdfViewer.DocumentClosedEventHandler">
+            <summary>
+            Provides document closed events
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:Spire.PdfViewer.PageNumberChangedEventHandler">
+            <summary>
+            Provides page number changed events.
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:Spire.PdfViewer.ZoomChangedEventHandler">
+            <summary>
+            Provides zoom changed events
+            </summary>
+            <param name="sender"></param>
+            <param name="zoomFactor"></param>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PasswordDlg">
+            <summary>
+            Summary description for password.
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PasswordDlg.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PasswordDlg.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PasswordDlg.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PdfDocumentAttachment">
+            <summary>
+            PDF document attachment
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachment.FileName">
+            <summary>
+            Attachment file name
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachment.Description">
+            <summary>
+            Attachment description
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachment.MimeType">
+            <summary>
+            Attachment mime type
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachment.CreationTime">
+            <summary>
+            Attachment creat time
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachment.ModifyTime">
+            <summary>
+            Attachment modify time
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachment.Data">
+            <summary>
+            Attachment file data
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentAttachment.SaveAS(System.String)">
+            <summary>
+            Exported attachment data to file
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation">
+            <summary>
+            PDF document attachment annotation
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.FileName">
+            <summary>
+            Attachment file name
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.Text">
+            <summary>
+            Attachment annotation Text
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.PageIndex">
+            <summary>
+            Attachment annotation page index
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.Location">
+            <summary>
+            Attachment annotaion location in page 
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.Color">
+            <summary>
+            Attachment annotation text color
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.Icon">
+            <summary>
+            Attachment annotation icon
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.Data">
+            <summary>
+            Attachment annotaion file data
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation.SaveAs(System.String)">
+            <summary>
+            Exported attachment annotaion data to file
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Title">
+            <summary>
+            The title of current bookmark.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Style">
+            <summary>
+            Bookmark style
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Color">
+            <summary>
+            The color of bookmark.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Id">
+            <summary>
+            Bookmark order.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Destination">
+            <summary>
+            Bookmark to go to destination
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Previous">
+            <summary>
+            Previous sibling bookmark of current bookmark.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Next">
+            <summary>
+            Next sibling bookmark of current bookmark.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentBookmark.Children">
+            <summary>
+            All children object of current bookmark.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentBookmark.Convert(Spire.Pdf.Bookmarks.PdfBookmark,Spire.PdfViewer.Forms.PdfDocumentViewer)">
+             <summary>
+            Convert Spire.Pdf.Bookmarks.Pdfbookmark to Spire.PdfViewer.Forms.PdfDocumentBookmark.
+             </summary>
+             <param name="bookMark">Spire.Pdf.Bookmarks.Pdfbookmark</param>
+             <param name="viewer">Pdf document viewer.</param>
+             <returns>Spire.PdfViewer.Forms.PdfDocumentBookmark.</returns>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PdfDocumentBookmarkContainer">
+            <summary>
+            Root bookmark of PDF document
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentTextStyle.Regular">
+            <summary>
+            Regular text style.
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentTextStyle.Bold">
+            <summary>
+            Bold text style.
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentTextStyle.Italic">
+            <summary>
+            Italic text style.
+            </summary>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PdfPagePonit">
+             <summary>
+            location of PDF document bookmark 
+             </summary>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PdfDocumentInfo">
+            <summary>
+            PDF document basic information
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.Title">
+            <summary>
+            PDF document title
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.Author">
+            <summary>
+            PDF document author
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.Creator">
+            <summary>
+            PDF document creator
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.Producer">
+            <summary>
+            PDF document producer
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.Keywords">
+            <summary>
+            PDF document keywords
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.Subject">
+            <summary>
+            PDF document subject
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.CreationDate">
+            <summary>
+            PDF document create date
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentInfo.ModificationDate">
+            <summary>
+            PDF document modification date
+            </summary>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail">
+            <summary>
+            PDF document thumbnail control
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.ZoomPercent">
+            <summary>
+            thumnail zoom percentage
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.m_viewer_DocumentLoaded(System.Object,System.EventArgs)">
+            <summary>
+            Raises the Load event.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A EventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.m_viewer_PageNumberChanged(System.Object,System.EventArgs)">
+            <summary>
+            Raises the PageNumberChanged event.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A EventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Raises the Paint event.
+            </summary>
+            <param name="e">A args that contains event data.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the MouseClick event.
+            </summary>
+            <param name="e">A MouseEventArgs that contains event data.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.OnResize(System.EventArgs)">
+            <summary>
+            Raises the Size Changed event.
+            </summary>
+            <param name="e">A args that contains event data.</param>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfThumbnails.PdfDocumentThumbnail.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PageLayoutMode">
+            <summary>
+            PdfDocumentViewer Page display mode 
+            </summary>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.PdfViewerMode.PdfViewerMode">
+            <summary>
+            PdfDocumentViewer display mode
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfViewerToolbar.m_Disposed">
+            <summary>
+            whether dispose mehtod has been called.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewerToolbar.Dispose(System.Boolean)">
+            <summary>
+            Release resources(managed/unmanaged)
+            Dispose(bool disposing) executes in two distinct scenarios.
+            If disposing equals true,
+            the method has been called directly or indirectly by a user'code.
+            Managed and unmanaged resources can be disposed.
+            if disposing equals false,
+            the method has been called by the runtime from the finalizer and you 
+            should not reference other objects.Only unmanaged resources can be disposed.
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfNotificationBar.m_Disposed">
+            <summary>
+            whether dispose mehtod has been called.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfNotificationBar.Dispose(System.Boolean)">
+            <summary>
+            Release resources(managed/unmanaged)
+            Dispose(bool disposing) executes in two distinct scenarios.
+            If disposing equals true,
+            the method has been called directly or indirectly by a user'code.
+            Managed and unmanaged resources can be disposed.
+            if disposing equals false,
+            the method has been called by the runtime from the finalizer and you 
+            should not reference other objects.Only unmanaged resources can be disposed.
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentViewer.m_EastAsianFont">
+            <summary>
+            Gets or Sets a bool value . This value represents very supportive of East Asian text
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.IgnoreCase">
+            <summary>
+            find text ignorecase
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.FindTextHighLightColor">
+            <summary>
+            find text color
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentViewer.m_FreeMaxPages">
+            <summary>
+            Free users can only add up to 10 pages
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentViewer.m_FreeMaxImage">
+            <summary>
+            Free users can save up to three pictures
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentViewer.m_ExceptionInfo">
+            <summary>
+            converting PDF to Image Throw Exception information
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ThrowFreeInfomation(System.Boolean)">
+            <summary>
+            add free version infomation
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.IsClickJump">
+            <summary>
+            When viewer mode is single page mode,Gets or sets whether to jump to page after click PDF document
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.FindText">
+            <summary>
+            Set find text
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.EastAsianFont">
+            <summary>
+            Gets or Sets a bool value . This value represents very supportive of East Asian text
+            </summary>     
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.IsDocumentLoaded">
+            <summary>
+            Veryfy whether to PDF document loaded
+            </summary>
+        </member>
+        <member name="E:Spire.PdfViewer.Forms.PdfDocumentViewer.PdfLoaded">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:Spire.PdfViewer.Forms.PdfDocumentViewer.ZoomChanged">
+            <summary>
+            Occurs zoom changed.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.CurrentPageNumber">
+            <summary>
+            Gets current display page number
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.PageCount">
+            <summary>
+            Get PDF document total page count
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.FileName">
+            <summary>
+            Get PDF document file name.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.PrintSettings">
+            <summary>
+            Get the print settings.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfDocumentViewer.ZoomMode">
+            <summary>
+            Gets or sets the zoom mode.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SaveToFile(System.String)">
+            <summary>
+            Save PDF documetns
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SaveToFile(System.IO.Stream)">
+            <summary>
+            Pdf document to save the file stream.
+            </summary>
+            <param name="stream"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SaveAsImage(System.Int32)">
+            <summary>
+            Saves PDF document page as image
+            </summary>
+            <param name="pageIndex">Page with page index to save as image</param>
+            <returns>Returns  page as BitmapSource</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SaveAsImage(System.Int32,System.Boolean)">
+            <summary>
+            Saves PDF document page as image
+            The method is Expired,After using the PDF method,(PdfViewer-195)
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="isAddWarning"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SaveAsMetaImage(System.IO.Stream,System.Int32)">
+            <summary>
+            Saves PDF document page as image
+            </summary>
+            <param name="pageIndex">Page with page index to save as image</param>
+            <returns>Returns  page as BitmapSource</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SaveAsThumbnail(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets thumbnail range of PDF document.
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SaveAsImage(System.Int32,System.Int32)">
+            <summary>
+            Saves PDF document page as Image
+            </summary>
+            <param name="pageIndex">PDF document page index</param>
+            <returns>Returns  page as BitmapSource</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToFirstPage">
+            <summary>
+            Go to first page.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToLastPage">
+            <summary>
+            Go to last page.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToNextPage">
+            <summary>
+            Go to next page.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToPage(System.Int32)">
+            <summary>
+            Jump to specified page
+            </summary>
+            <param name="index"> Destination page number</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToPageNumber(System.Int32)">
+            <summary>
+            Go to page in multi-page mode.
+            </summary>
+            <param name="pageNumber">The page number.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToPageIndex(System.Int32)">
+            <summary>
+            Go to page in single page mode.
+            </summary>
+            <param name="index">The page index.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToPreviousPage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.PrintDoc">
+            <summary>
+            Print document.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.PrintDialog">
+            <summary>
+            Display a print dialog box
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.Print">
+            <summary>
+             Print PDF document
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.Print(System.Int32,System.Int32)">
+            <summary>
+            Print PDF document page rangek
+            </summary>
+            <param name="startPageIndex"></param>
+            <param name="endPageIndex"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.Preview">
+            <summary>
+            Print Prievew
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SearchText(System.String,System.Drawing.Color)">
+             <summary>
+            Set search text,highlight colors
+             </summary>
+             <param name="searchText">search text</param>
+             <param name="hightColor">highlightColor colors</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SearchText(System.String,System.Drawing.Color,System.Boolean)">
+             <summary>
+            Set search text,highlight colors
+             </summary>
+             <param name="searchText">search text</param>
+             <param name="hightColor">highlightColor colors</param>
+             <param name="ignoreCase">bool ignoreCase</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.LoadFromStream(System.IO.Stream)">
+            <summary>
+            Load PDF document from stream.
+            </summary>
+            <param name="stream">Data stream</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.LoadFromFile(System.String)">
+            <summary>
+            Load PDF document from file.
+            </summary>
+            <param name="filePath">File path</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.LoadFromFile(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="filePath">File path</param>
+            <param name="password">File password</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.m_singlePagePanel_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paint page in single page display mode.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PaintEventArgs that contains the event data.</param>
+        </member>
+        <!-- 对于成员“M:Spire.PdfViewer.Forms.PdfDocumentViewer.m_multiPagePanel_Paint(System.Object,System.Windows.Forms.PaintEventArgs)”忽略有格式错误的 XML 注释 -->
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.CloseDocument">
+            <summary>
+            Close current pdf document.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.UpdatePageIndex">
+            <summary>
+            Update the current page index.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ZoomTo(Spire.PdfViewer.Forms.ZoomMode)">
+            <summary>
+            Zoom PDF document
+            </summary>
+            <param name="percentage">Zoom Mode</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ZoomTo(System.Int32)">
+            <summary>
+            Zoom PDF document
+            </summary>
+            <param name="percentage">Zoom percentage</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GetBookmarkContainer">
+            <summary>
+            Get PDF document bookmark container
+            </summary>
+            <returns> PDF document root bookmark</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GoToBookmark(Spire.PdfViewer.Forms.PdfDocumentBookmark)">
+            <summary>
+            Go to specified bookmark
+            </summary>
+            <param name="bookmark">PDF document bookmark</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GetAttachments">
+            <summary>
+            Get PDF document all of attachments
+            </summary>
+            <returns>PDF document all of attachments</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GetAttachmentAnnotaions">
+            <summary>
+            Get PDF document all of attachment annotations
+            </summary>
+            <returns>PDF document  all of attachment annotations</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GotoAttachmentAnnotation(Spire.PdfViewer.Forms.PdfDocumentAttachmentAnnotation)">
+            <summary>
+            Go to PDF document attachment annotation
+            </summary>
+            <param name="annotation">PDF document attachment annotation </param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ExtractText(System.Int32)">
+            <summary>
+            Extract text from specific PDF pages.
+            </summary>
+            <param name="pageIndex">The page index.</param>
+            <returns>The texts in pages.</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ExtractImages(System.Int32)">
+             <summary>
+            Extract images from specific PDF page.
+             </summary>
+             <param name="pageIndex">The page index.</param>
+             <returns>The images in pages.</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ExtractImages(System.Int32,System.Boolean)">
+             <summary>
+            Extract images from specific PDF page,and adjust souce image rotatation.
+             </summary>
+             <param name="pageIndex">The page index.</param>
+             <param name="isAdjustImageRotate"></param>
+             <returns>The images in pages.</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ExtractText(System.Int32,System.Int32)">
+            <summary>
+            Extract text from specific PDF pages.
+            </summary>
+            <param name="startPageIndex">The start page index.</param>
+            <param name="endPageIndex">The end page index.</param>
+            <returns>The texts in pages.</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.ExtractImages(System.Int32,System.Int32)">
+            <summary>
+            Extract images from specific PDF pages.
+            </summary>
+            <param name="startPageIndex">The start page index.</param>
+            <param name="endPageIndex">The end page index.</param>
+            <returns>The images in pages.</returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.Rotate(Spire.PdfViewer.Forms.RotateAngle)">
+            <summary>
+            Rotate PDF document
+            </summary>
+            <param name="angle">Rotate angle</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GetDocumentInfomation">
+            <summary>
+            Get PDF document information 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.LoadFromHtml(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Load web page as PDF document.
+            </summary>
+            <param name="inputUrl"></param>
+            <param name="convertPdfName"></param>
+            <param name="enableJavascript"></param>
+            <param name="enableHyperLink"></param>
+            <param name="autoDetectePageBreak"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.LoadFromHtml(System.String,System.String)">
+            <summary>
+            Load web page as PDF document
+            </summary>
+            <param name="inputUrl">Html file path</param>
+            <param name="convertPdfName">Converted PDF document file path</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.VeryfyDocumentEncrypted(System.String)">
+            <summary>
+            Veryfy PDF doument whether to encrypt
+            </summary>
+            <param name="PdfDocument">PDF document file path</param>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SetViewerMode(Spire.PdfViewer.Forms.PdfViewerMode.PdfViewerMode)">
+            <summary>
+            Set PdfDocumentViewer display mode
+            </summary>
+            <param name="mode">Display mode</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.SetPageLayoutMode(Spire.PdfViewer.Forms.PageLayoutMode)">
+            <summary>
+            Set PDF document page display mode
+            </summary>
+            <param name="pageMode">Page display mode</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.GetThumbnailControl">
+            <summary>
+            Get thumbnail control
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.Rotate(Spire.PdfViewer.Forms.RotateAngle,System.Int32,System.Int32)">
+            <summary>
+            Rotate the specified range pages.
+            </summary>
+            <param name="angle">Rotate angle</param>
+            <param name="startPageIndex">The start page index.</param>
+            <param name="endPageIndex">The end page index.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.EnableHandTool">
+            <summary>
+            Enable hand tool ,then mouse cursor become hand shape and can drag PDF document
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.EscapeHandTool">
+            <summary>
+            Escapae hand tool ,mouse cursor recover default shape
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.OnClick(System.EventArgs)">
+            <summary>
+            Raises the Click event. 
+            </summary>
+            <param name="e">A EventArgs that contains the event data.</param>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfDocumentViewer.m_Disposed">
+            <summary>
+            whether dispose mehtod has been called.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfDocumentViewer.Dispose(System.Boolean)">
+            <summary>
+            Release resources(managed/unmanaged)
+            Dispose(bool disposing) executes in two distinct scenarios.
+            If disposing equals true,
+            the method has been called directly or indirectly by a user'code.
+            Managed and unmanaged resources can be disposed.
+            if disposing equals false,
+            the method has been called by the runtime from the finalizer and you 
+            should not reference other objects.Only unmanaged resources can be disposed.
+            </summary>
+            <param name="disposing"> </param>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.FileName">
+            <summary>
+            Gets current opened pdf file name.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.PageCount">
+            <summary>
+            Gets the current number of display pages for the content.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.IsToolBarVisible">
+            <summary>
+            Gets or sets whether is visible of toolbar.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.PrintDocument">
+            <summary>
+            Defines a reusable object that sends output to a printer, when printing from current document.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.PrintSettings">
+            <summary>
+            Get the print settings.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.CurrentPageNumber">
+            <summary>
+            Gets the page number for the currently displayed page.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.IgnoreCase">
+            <summary>
+            the found text ignore case
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.FindTextHighLightColor">
+            <summary>
+            The found text to highlight
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.PdfViewer.ViewerBackgroundColor">
+            <summary>
+            Set the PdfViewer background color
+            </summary>
+        </member>
+        <member name="E:Spire.PdfViewer.Forms.PdfViewer.PageNumberChanged">
+            <summary>
+            Occurs current page number changed.
+            </summary>
+        </member>
+        <member name="E:Spire.PdfViewer.Forms.PdfViewer.DocumentOpened">
+            <summary>
+            Occurs after a document is opened.
+            </summary>
+        </member>
+        <member name="E:Spire.PdfViewer.Forms.PdfViewer.DocumentClosed">
+            <summary>
+            Occurs after a document is closed.
+            </summary>
+        </member>
+        <member name="E:Spire.PdfViewer.Forms.PdfViewer.ImageRender">
+            <summary>
+            Occurs before renderinge a image.
+            </summary>
+        </member>
+        <member name="E:Spire.PdfViewer.Forms.PdfViewer.ZoomChanged">
+            <summary>
+            Occurs zoom changed.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.SaveAsImage(System.Int32)">
+            <summary>
+            Saves page to image.
+            </summary>
+            <param name="pageNumber">Page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.SaveAsImage(System.Int32,System.Int32)">
+            <summary>
+            Saves page to image.
+            </summary>
+            <param name="startPageNumber">start page number</param>
+            <param name="endPageNumber">end page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.GoToPage(System.Int32)">
+            <summary>
+            Jump to a specified page number. 
+            </summary>
+            <param name="index">The number of the page to jump to.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.LoadFromStream(System.IO.Stream)">
+            <summary>
+            Load a PDF document from a Stream. 
+            </summary>
+            <param name="stream">A Stream containing a PDF document.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.LoadFromFile(System.String)">
+            <summary>
+            Load a PDF document from a file. 
+            </summary>
+            <param name="filePath">The name of the file that contains the PDF document.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.LoadFromFile(System.String,System.String)">
+            <summary>
+            Load a PDF document from a file. 
+            </summary>
+            <param name="fileName">file name</param>
+            <param name="password">password</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.SaveToFile(System.String)">
+            <summary>
+            Save PDF documetns
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.SaveToFile(System.IO.Stream)">
+            <summary>
+            Stream to save PDF document
+            </summary>
+            <param name="stream"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.PrintDoc">
+            <summary>
+            Print document.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.Print">
+            <summary>
+            Print pdf document
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.CloseDocument">
+            <summary>
+            Close current pdf document.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.EnableHandTool">
+            <summary>
+            Enable hand tool then can drag PDF document
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.EscapeHandTool">
+            <summary>
+            Escape hand tool
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.GetThumbnailControl">
+            <summary>
+            Gets PDF document thumnail control
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.Rotate(Spire.PdfViewer.Forms.RotateAngle)">
+            <summary>
+            Rotate PDF document
+            </summary>
+            <param name="angle"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.GetBookmarkContainer">
+            <summary>
+            Gets PDF document root bookmark
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.GetDocumentAttachments">
+            <summary>
+            Gets PDF document all of attachments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.GetDocumentAttachmentAnnotations">
+            <summary>
+            Gets PDF document all of attachment annotations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.SetViewerMode(Spire.PdfViewer.Forms.PdfViewerMode.PdfViewerMode)">
+            <summary>
+            Sets PdfViewer display mode
+            </summary>
+            <param name="mode"></param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.SetPageLayouMode(Spire.PdfViewer.Forms.PageLayoutMode)">
+            <summary>
+            Sets PDF document page display mode
+            </summary>
+            <param name="mode"></param>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.PdfViewer.m_Disposed">
+            <summary>
+            whether dispose mehtod has been called.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.PdfViewer.Dispose(System.Boolean)">
+            <summary>
+            Release resources(managed/unmanaged)
+            Dispose(bool disposing) executes in two distinct scenarios.
+            If disposing equals true,
+            the method has been called directly or indirectly by a user'code.
+            Managed and unmanaged resources can be disposed.
+            if disposing equals false,
+            the method has been called by the runtime from the finalizer and you 
+            should not reference other objects.Only unmanaged resources can be disposed.
+            </summary>
+            <param name="disposing"> </param>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.VirtualizingPagePanel.FindText">
+            <summary>
+            Set find text
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.VirtualizingPagePanel.FindTextHighLightColor">
+            <summary>
+            find text color
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.VirtualizingPagePanel.GetPageIndexesAtPosition(System.Single,System.Single,Spire.PdfViewer.Forms.PageLayoutMode)">
+            <summary>
+            Get pages by vertical scrolling position,zoom factor,page layout mode. 
+            </summary>
+            <param name="vScrollPosition">The vertical scrolling position.</param>
+            <param name="zoomFactor">The zoom factor.</param>
+            <param name="pageMode">The page layout mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.VirtualizingPagePanel.Initialize">
+            <summary>
+            Initialize.
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.VirtualizingPagePanel.Initialize(System.Single)">
+            <summary>
+            Initialize.
+            </summary>
+            <param name="zoomFactor">The zoom factor.</param>
+        </member>
+        <member name="M:Spire.PdfViewer.Forms.VirtualizingPagePanel.AdjustPageBoundes(Spire.PdfViewer.Forms.PageLayoutMode,System.Single)">
+            <summary>
+            Adjust page bounds when switch page layout mode.
+            </summary>
+            <param name="pageMode">The page layout mode.</param>
+            <param name="zoomFactor">The zoom factor.</param>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.ZoomMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.ZoomMode.Default">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.ZoomMode.FitPage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Forms.ZoomMode.FitWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Spire.PdfViewer.Forms.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Forms.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:Spire.PdfViewer.Drawing.PdfDocumentLoader.s_instance">
+            <summary>
+            static Object
+            </summary>
+        </member>
+        <member name="P:Spire.PdfViewer.Drawing.PdfDocumentLoader.Instance">
+            <summary>
+            Get Instance
+            </summary>
+        </member>
+        <member name="M:Spire.PdfViewer.Drawing.PdfDocumentLoader.Load(System.IO.Stream)">
+            <summary>
+            Load from Stream
+            </summary>
+            <param name="stream"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Spire.PdfViewer.Drawing.PdfDocumentLoader.Load(System.String)">
+            <summary>
+            Load from file
+            </summary>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
